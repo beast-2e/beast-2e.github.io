@@ -1,18 +1,17 @@
 module.exports = {
-  title: "Hello Kraken",
-  description: "The description of the site.",
+  title: "Beast",
+  description: "The official website of MIT East Campus 2E. Welcome!",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   dest: "./dist",
-  base: "/vue-nice-homepage-page/",
+  base: "/",
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "Projects", link: "/projects/" },
-      { text: "Guide", link: "/guide/" },
-      { text: "GitHub", link: "https://github.com/nordicgiant2/vue-nice-homepage" }
+      { text: "Meet the Beasties", link: "/beasties/" },
+      { text: "Murphy Book", link: "/murphy/" },
     ],
     sidebar: {
-      '/guide/': genSidebarConfig('Guide')
+      '/murphy/': genSidebarConfig('Menu')
     },
     lastUpdated: 'Last Updated'
   },
@@ -32,9 +31,10 @@ function genSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-        'getting-started',
-        'customize',
-        'advanced',
+        'traditions',
+        'recipes',
+        'playlists',
+        'gallery',
       ]
     }
   ]

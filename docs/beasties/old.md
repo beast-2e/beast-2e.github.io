@@ -3,7 +3,7 @@ layout: Projects
 sidebar: false
 
 projects:
-- image: /projects/1.png
+- image: /beasties/1.png
   rows:
   - content: 'Harry P., Hermione G., *et al*'
   - content: "**The Making of Hello Kraken's Wand**"

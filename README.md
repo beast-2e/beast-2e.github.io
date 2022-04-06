@@ -2,7 +2,7 @@
 
 ### DEMO is [here](https://nordicgiant2.github.io/vue-nice-homepage-page/)
 
-![img](https://github.com/nordicgiant2/vue-nice-homepage/blob/master/images/01.jpg?raw=true)
+![img](https://github.com/nordicgiant2/beastsite-2.0/blob/master/images/01.jpg?raw=true)
 
 ## About [`particles-bg-vue`](https://github.com/lindelof/particles-bg-vue) library
 #### This project uses the react particle background component library [https://github.com/lindelof/particles-bg-vue](https://github.com/lindelof/particles-bg-vue). It's very simple. Anyone can be a Musketeer with it.
@@ -13,12 +13,12 @@
 This project forks from [https://github.com/mtobeiyf/vuepress-homepage](https://github.com/mtobeiyf/vuepress-homepage), I made some modifications and adjustments, thanks to the [author](https://github.com/mtobeiyf).
 
 <h2>
-  <a href="https://vuepress-homepage.netlify.com/guide/" target="_blank" title="Getting Started">
+  <a href="https://vuepress-homepage.netlify.com/murphy/" target="_blank" title="Getting Started">
     Getting Started
   </a>
 </h2>
 
-Check the full documentation here :point_right: [Guide](https://vuepress-homepage.netlify.com/guide/)
+Check the full documentation here :point_right: [Guide](https://vuepress-homepage.netlify.com/murphy/)
 
 Make sure you have [Node.js](https://nodejs.org) and [yarn](https://yarnpkg.com) installed.
 
