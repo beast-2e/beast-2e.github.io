@@ -48,7 +48,7 @@
 
   **Major(s) / minor(s):** meche + political science/global studies
 
-  **Bio:** hi i'm kano! i like to make things, break things, and play with things. kurt vonnegut is my current fav author: cat's cradle and slaughterhouse-five are excellent books. i enjoy many many quotes, this week's notable one being "the same hot water that softens the potato also hardens the egg." this is my ig, where i'm most active: https://www.instagram.com/pakaprow. this is my twitter, where i'm most dangerous: https://twitter.com/bbywch. this is my facebook, where my parents follow me (and you know how that goes): https://www.facebook.com/kanotung. thank you.
+  **Bio:** hi i'm kano! i like to make things, break things, and play with things. kurt vonnegut is my current fav author: cat's cradle and slaughterhouse-five are excellent books. i enjoy many many quotes, this week's notable one being "the same hot water that softens the potato also hardens the egg." this is my ig, where i'm most active: [https://www.instagram.com/pakaprow](https://www.instagram.com/pakaprow). this is my twitter, where i'm most dangerous: [https://twitter.com/bbywch](https://twitter.com/bbywch). this is my facebook, where my parents follow me (and you know how that goes): [https://www.facebook.com/kanotung](https://www.facebook.com/kanotung). thank you.
 
 </MarkdownCard>
 
@@ -132,7 +132,7 @@
 
   **Major(s) / minor(s):** 6-3 + 9 (double)
 
-  **Bio:** I'm a violist who loves reading graphic novels and otherwise exploring the great indoors; I'm also the person who created this version of our Beast website. Feel free to say hi at t_gao [at] mit [dot] edu :&ZeroWidthSpace;)
+  **Bio:** I'm a violist who loves reading graphic novels and otherwise exploring the great indoors. I'm also the person who created this version of our Beast website! Feel free to say hi at t_gao [at] mit [dot] edu :&ZeroWidthSpace;)
 
 </MarkdownCard>
 
@@ -159,7 +159,7 @@
 
   **Major(s) / minor(s):** 6-2
 
-  **Bio:** I am a CS nerd interested in most things computers. I like gaming but never find the time. Check out my playlist of work from 4.354: https://www.youtube.com/playlist?list=PLa81x4S2U-veVtXapyTaCGfwNAiC9ZRt-
+  **Bio:** I am a CS nerd interested in most things computers. I like gaming but never find the time. Check out my playlist of work from 4.354: [https://www.youtube.com/playlist?list=PLa81x4S2U-veVtXapyTaCGfwNAiC9ZRt-](https://www.youtube.com/playlist?list=PLa81x4S2U-veVtXapyTaCGfwNAiC9ZRt-)
 
 </MarkdownCard>
 
@@ -171,6 +171,8 @@
 
   **Pronouns:** He/him
 
-  **Year:** 5, 6-3
+  **Year:** 2024
+
+  **Major(s) / minor(s):** 5, 6-3
 
 </MarkdownCard>
