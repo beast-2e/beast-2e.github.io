@@ -31,14 +31,16 @@ export default {
   align-items: stretch
   .card-image
     display flex
-    align-items center
+    align-items top
     padding 0.5rem
     img 
       max-width 150px
       max-height 150px
+      width 150px
       height 150px
-      border: 1px solid #eee;
-      border-radius 0.2rem
+      border 1px solid #eee;
+      border-radius 75px
+      // border-radius 0.2rem
       object-fit cover
   .card-content
     padding 0.5rem
@@ -63,7 +65,7 @@ export default {
       img 
         width 100%
         max-width 400px
-    .card-content
+    .text
       pre
         margin 0
         border-radius 6px
