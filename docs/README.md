@@ -16,7 +16,7 @@ actions:
   link: /murphy/
 ---
 
-Second East, monoymously known as Beast, is a hall that is **first and foremost about people**. Hall culture is defined by all of our **diverse and varied** hall members, so it's always changing and evolving. Beast's current range of interests include:
+Second East, mononymously known as Beast, is a hall that is **first and foremost about people**. Hall culture is defined by all of our **diverse and varied** hall members, so it's always changing and evolving. Beast's current range of interests include:
 
 - **baking** (banana bread),
 - **cooking** (so many dumplings),
