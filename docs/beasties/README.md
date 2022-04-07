@@ -146,7 +146,7 @@
 
   **Year:** 2025
 
-  **Major(s) / Minor(s):** 2 (mechanical engineering)
+  **Major(s) / minor(s):** 2 (mechanical engineering)
 
 </MarkdownCard>
 

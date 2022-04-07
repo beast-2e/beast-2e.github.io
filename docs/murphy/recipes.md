@@ -26,7 +26,5 @@
 ### instructions
 
 1. Combine ingredients in the order listed
-2. Pour into a 9"x13" casserole dish and bake at 325° for ~65 min *or* at 350° for ~30 min
-  a. If you're using cupcake pans or two loaf pans, then your bake time will be slightly less
-  b. You'll know when it's done if you stick in a toothpick or chopstick and it comes out clean (i.e., no raw banana bread goop attached)
-3. Announce your banana bread by emailing out to hall and wait for the Beasties to descend :yum:
+2. Pour into a 9"x13" casserole dish and bake at 325° for ~65 min *or* at 350° for ~30 min; you'll know when it's done if you stick in a toothpick or chopstick and it comes out clean (i.e., no raw banana bread goop attached)
+3. Email out to hall to share banana bread with your fellow Beasties :yum:

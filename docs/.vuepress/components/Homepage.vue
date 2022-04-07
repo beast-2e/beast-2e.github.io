@@ -22,10 +22,6 @@
           </div>
         </div>
 
-        <div class="interests">
-          {{data.interests}}
-        </div>
-
         <div class="actions">
           <div v-for="item in data.actions">
             <a :href="item.link" class="button"
@@ -35,9 +31,6 @@
           </div>
         </div>
       </div>
-
-      <div class="footer" v-if="data.footer">
-       
       </div>
     </div>
   </div>
@@ -53,7 +46,7 @@ export default {
   computed: {
     bgProps() {
       if (this.particlesBgComp) {
-        return { bg: true, type: "random" }
+        return { bg: true, type: "cobweb" }
       }
     },
     data() {
