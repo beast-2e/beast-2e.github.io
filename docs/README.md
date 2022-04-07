@@ -12,7 +12,7 @@ actions:
   link: /murphy/
 ---
 
-Second East, mononymously known as Beast, is home to **36 human residents**, **2 canine residents**, the **Very Large LED Array (VLLA)**, a pretty nifty **water filter**, a **Free Food Table (FFT)**, and beautiful **murals** including one of our mascot, The Beast.
+Second East, mononymously known as Beast, is home to **36 human residents**, **2 canine residents**, the **Very Large LED Array (VLLA)**, a pretty nifty **water filter**, a **Free Food Table (FFT)**, a janky **upright piano**, and beautiful **murals** including one of our mascot, The Beast.
 
 Hall culture is defined by all of our **diverse and varied** hall members, so it's always changing and evolving. Beast's current range of interests include:
 

@@ -1,6 +1,6 @@
 # Traditions
 
-While we do many spontaneous things together, our official events are managed by **BowlingComm**, the hall committee that decides how to allocated our designated Bowling budget every semester, and **BirthdayComm**, the committee that bakes treats and arranges celebrations for Beasties' birthdays throughout the year. Our events are always open to Beasties as well as friends of Beast!
+While we do many spontaneous things together, our official events are managed by **BowlingComm**, the hall committee that decides how to allocate our designated Bowling budget every semester, and **BirthdayComm**, the committee that bakes treats and arranges celebrations for Beasties' birthdays throughout the year. Our events are always open to Beasties as well as friends of Beast!
 
 Note: **Bowling** (with a capital B) refers to any official social event of hall.
 
