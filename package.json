@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": ".",
   "description": "Generate your homepage with VuePress",
-  "author": "nono <nonos@gmail.com>",
+  "author": "Teresa Gao <t_gao@mit.edu>",
   "repository": "https://github.com/beast-2e/beast-2e.github.io",
   "scripts": {
     "clean": "rimraf dist/*",

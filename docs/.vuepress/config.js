@@ -1,9 +1,11 @@
 module.exports = {
   title: "Beast",
   description: "The official website of MIT East Campus 2E. Welcome!",
-  head: [["link", { rel: "icon", href: `/logo.png` }]],
+  head: [
+    ["link", { rel: "icon", href: `/beast-logo.png` }]
+  ],
   dest: "./dist",
-  base: "/",
+  base: "@",
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
@@ -20,6 +22,12 @@ module.exports = {
     anchor: { permalink: false },
     config: md => {
       md.use(require("markdown-it-katex"));
+    }
+  },
+
+  resolve: {
+    alias: {
+      '@': resolve('TODO')
     }
   }
 };
@@ -39,4 +47,3 @@ function genSidebarConfig (title) {
     }
   ]
 }
-
