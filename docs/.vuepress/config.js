@@ -3,7 +3,7 @@ module.exports = {
   description: "The official website of MIT East Campus 2E. Welcome!",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   dest: "./dist",
-  base: "/",
+  base: "./",
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
