@@ -20,7 +20,7 @@ p {
     margin: auto;
     background-color: white;
     width: 75%;
-    min-width: 250px;
+    min-width: 375px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -50,7 +50,7 @@ p {
     align-items: center;
 }
 
-.navbar-entry a {
+.navbar-button a {
     display: inline-block;
     background-color: white;
     color: #909090;
@@ -63,12 +63,12 @@ p {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.0), 0 3px 10px 0 rgba(0, 0, 0, 0.085);
 }
 
-.navbar-entry-current a {
+.navbar-button-current a {
     background-color: #909090;
     color: white;
 }
 
-.navbar-entry a:hover {
+.navbar-button a:hover {
     background-color: black;
     color: white;
 }
