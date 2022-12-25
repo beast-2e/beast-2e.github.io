@@ -1,6 +1,6 @@
 # Welcome to Beastsite 2.0!
 
-A lot of the setup for this version of Beast's website has been made by Teresa (t_gao@mit.edu), so for anyone making future changes, please let me know if anything is confusing or could be made more efficient and I'll try to help!
+A lot of the setup for this version of Beast's website has been made by Teresa (t_gao@mit.edu), so for anyone making future changes, please let me know if anything is confusing or could be made more efficient and I'll try to help! Other members of Beast WebComm can be reached via beastsite@mit.edu; we also have [a channel in the Beast Discord](https://discord.com/channels/631269317513707549/1016902588354007131) for this purpose.
 
 ## 0. Set up
 
