@@ -4,7 +4,11 @@ A lot of the setup for this version of Beast's website has been made by Teresa (
 
 ## 0. Set up
 
-Clone this repo! *TODO: add step-by-step instructions for this :P*
+The first thing you'll want to do is clone this repository (repo), which effectively means that you're downloading a copy of all the files here and that the changes you make can eventually be seen here.
+
+1. Open up the command line on your computer. On Windows, this can be Command Prompt or Powershell. On Mac, this is Terminal.
+2. Navigate to wherever you want to clone the repository. Some helpful commands for this are `pwd` (a.k.a., print working directory, which tells you where you currently are), `ls` (which lists all of the files and folders in your current directory), `cd foldername` (which lets you "enter" a subfolder of your current directory), and `cd ..` (which lets you take a step backward from where you are; e.g., if you are in `folder/subfolder/` and run this command, you will end up in `folder/`).
+3. Type `git clone https://github.com/beast-2e/beast-2e.github.io.git` and hit enter; the code will appear in a folder called `beast-2e.github.io` (which you can get to via `cd beast-2e.github.io`). Optionally, you can type `git clone https://github.com/beast-2e/beast-2e.github.io.git yourfoldernamehere`, and the code will appear in whatever you call your subfolder.
 
 ## 1. Make changes
 
