@@ -9,6 +9,7 @@ The first thing you'll want to do is clone this repository (repo), which effecti
 1. Open up the command line on your computer. On Windows, this can be Command Prompt or Powershell. On Mac, this is Terminal.
 2. Navigate to wherever you want to clone the repository. Some helpful commands for this are `pwd` (a.k.a., print working directory, which tells you where you currently are), `ls` (which lists all of the files and folders in your current directory), `cd foldername` (which lets you "enter" a subfolder of your current directory), and `cd ..` (which lets you take a step backward from where you are; e.g., if you are in `folder/subfolder/` and run this command, you will end up in `folder/`).
 3. Type `git clone https://github.com/beast-2e/beast-2e.github.io.git` and hit enter; the code will appear in a folder called `beast-2e.github.io` (which you can get to via `cd beast-2e.github.io`). Optionally, you can type `git clone https://github.com/beast-2e/beast-2e.github.io.git yourfoldernamehere`, and the code will appear in whatever you call your subfolder.
+4. Once you've entered the repo, it's a good idea to create a branch so that your changes don't just go directly to the `main` branch. (In version control, branches are different tracks of history: like "what if" scenarios, but actually.) This is because sometimes people have simultaneous diverging ideas that would be confusing to add to the same branch at once. You can do this by running `git checkout -b yourbranchname -t origin/main`, which will create a new branch with your branch name that tracks the changes occurring on `main`.
 
 ## 1. Make changes
 
@@ -18,7 +19,14 @@ To see how things are set up, feel free to open up any of the files ending in `.
 
 ## 2. Share changes
 
-*TODO: add instructions for committing and pushing*
+Once you've made changes that you're happy with, let's get those updates in the cloud as well!
+
+1. On command line, navigate to your repository.
+2. To check which files you've changed, run `git status`. The names of the changed files should appear in red.
+3. For each file whose changes you want to save, run `git add nameofthisfile`. If you're lazy and are sure that you want to keep the changes in every file you've changed, you can run `git add -A` to add all files.
+4. For peace of mind, you can run `git status` again. The names of the changed files that you want to save the changes of should appear in green.
+5. Now that you've added your changes, it's time to name them (so that, when you or a fellow Beastie is looking through the history of the repo, they can remember what exactly it was that you were trying to do here). Run `git commit -m "insert explanation of your changes here"`.
+6. Finally, run `git push`! This will transfer your changes from your local computer all the way to GitHub so that other people with access to this repo can view the code for your changes. Note that if other people have been working on this repo simultaneously, you may need to run `git pull` first to incorporate their changes into your local copy, but only run this after running `git commit` so you don't accidentally override your own changes.
 
 ## 3. Update the actual website
 
