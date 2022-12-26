@@ -31,25 +31,3 @@ li a:hover {
   background-color: black;
   color: white;
 }
-
-/* ****************************** */
-/*
-.sidenav {
-  z-index: 1;
-  background-color: white;
-  overflow-x: hidden;
-  border: 3px solid green;
-  margin-right: 10px;
-  width: 150px;
-}
-
-.sidenav a {
-  text-decoration: none;
-  color: #909090;
-  display: block;
-}
-
-.sidenav a:hover {
-  background-color: black;
-  color: white;
-}*/

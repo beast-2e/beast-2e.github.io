@@ -7,6 +7,7 @@ body {
     background-color: #f0f0f0;
     height: 100vh;
     width: 100vw;
+    scroll-behavior: smooth;
 }
 
 h1, h2 {
