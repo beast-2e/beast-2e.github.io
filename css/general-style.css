@@ -47,6 +47,12 @@ p {
     margin-right:               auto;
 }
 
+.box-content {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.0), 0 3px 10px 0 rgba(0, 0, 0, 0.085);
+}
+
 .top-banner {
     background-color:           white;
 }
@@ -80,16 +86,6 @@ p {
 .navbar-button a:hover {
     background-color: black;
     color: white;
-}
-
-.box-content {
-    box-sizing: border-box;
-    display: inline-block;
-    align-content: center;
-    text-align: center;
-    position: relative;
-    background: white;
-    margin: 25px 50px 25px 50px;
 }
 
 #beast-logo {
