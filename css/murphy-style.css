@@ -6,16 +6,20 @@
   gap: 30px;
 }
 
+.box-content {
+  flex-grow: 3;
+}
+
 .sidenav {
   padding: 10px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.0), 0 3px 10px 0 rgba(0, 0, 0, 0.085);
+  flex-grow: 1;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 150px;
   background-color: white;
   color: pink;
 }
