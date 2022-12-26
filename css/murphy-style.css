@@ -31,3 +31,8 @@ li a:hover {
   background-color: black;
   color: white;
 }
+
+.murphy-current {
+  background-color: #909090;
+  color: white;
+}
