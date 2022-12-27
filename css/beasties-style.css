@@ -9,13 +9,29 @@
     object-fit: cover;
     object-position: center;
     display: inline-block;
-    /* position: relative; */
     border-radius: 50%;
 }
 
+.beast-container{
+    display: flex;
+    margin: 100px;
+    border-style: solid;
+    border-width: 2px;
+}
 
+#beast-name{
+    padding: 40px;
+    position: relative;
+    top: -25px;
+    font-size: 30px;
+}
 
-.beast-container-visible {
+#beast-name pronouns{
+    font-size: 16px;
+    color: gray;
+}
+
+/* .beast-container-visible {
     display: flex;
     margin: 15px;
     border-style: solid;
@@ -42,9 +58,9 @@
     flex-grow:0;
     text-align:center;
     color: #fff;
-}
+} */
   
-  
+/*   
   .staff-name-visible {
     background-color: #a02828;
     padding: 15px;
@@ -54,9 +70,9 @@
   
   .staff-name-hidden {
       background-color: #a02828;
-    /*border-style: solid;
+    border-style: solid;
     border-width: 1px;
-    border-top-width: 0px;*/
+    border-top-width: 0px;
     padding: 15px;
     position: relative;
     top: -25px;
@@ -75,9 +91,9 @@
     width: 40vw;
     border-style: solid;
     border-width: 0px;
-    /*border-bottom-width:0px;
+    border-bottom-width:0px;
     border-top-width:0px;
-    border-left-width:0px;*/
+    border-left-width:0px;
     border-right-width:1px;
     border-color: #a02828;
     background-color: #fff7f7;
@@ -103,4 +119,4 @@
       border-color: #a02828;
       background-color: #fff7f7;
     }
-  }
+  } */
