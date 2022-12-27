@@ -1,3 +1,144 @@
+.beast-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.beast-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: inline-block;
+    border-radius: 50%;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    padding: 20px;
+}
+
+.beast-container{
+    display: flex;
+    width: 815px;
+    margin: 20px 100px 20px 100px;
+    /* border-style: solid;
+    border-radius: 20px;
+    border-width: 1px; */
+}
+
+#beast-name{
+    /* padding: 20px; */
+    object-position: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+#beast-name pronouns{
+    font-size: 16px;
+    color: gray;
+}
+
+.beast-text{
+    font-size: 16px;
+    /* margin: auto; */
+}
+
+p {
+    line-height: 20px;   /* within paragraph */
+    margin-bottom: 15px; /* between paragraphs */
+    }
+
+/* .beast-container-visible {
+    display: flex;
+    margin: 15px;
+    border-style: solid;
+    border-width: 0px;
+}
+  
+.beast-container-hidden {
+    display:flex;
+    flex:1;
+    flex-grow:0;
+    margin: 15px;
+}
+  
+.beast-container-visible:hover {
+    cursor:pointer;
+}
+  
+.beast-container-hidden:hover {
+    cursor:pointer;
+}
+  
+.beast-left{
+    flex-basis:auto;
+    flex-grow:0;
+    text-align:center;
+    color: #fff;
+} */
+  
+/*   
+  .staff-name-visible {
+    background-color: #a02828;
+    padding: 15px;
+    position: relative;
+    top: -25px;
+  }
+  
+  .staff-name-hidden {
+      background-color: #a02828;
+    border-style: solid;
+    border-width: 1px;
+    border-top-width: 0px;
+    padding: 15px;
+    position: relative;
+    top: -25px;
+  }
+  
+
+
+  .staff-max-icon {
+    position: relative;
+    left: 87px;
+    top: -200px;
+  }
+  
+  .staff-right-visible {
+    flex:1;
+    width: 40vw;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width:0px;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:1px;
+    border-color: #a02828;
+    background-color: #fff7f7;
+  }
+  
+  .staff-right-hidden {
+    display: none;
+  }
+  
+  .staff-right-visible p {
+    padding: 15px;
+  }
+  
+  @media(max-width:750px) {
+    .staff-container-visible {
+      display:initial;
+    }
+    .staff-right-visible {
+      border-style: solid;
+      border-width: 0px;
+      width: auto;
+      border-right-width:1px;
+      border-color: #a02828;
+      background-color: #fff7f7;
+    }
+  } */
 .box-content {
     box-sizing: border-box;
     align-content: center;
