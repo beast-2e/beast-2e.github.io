@@ -50,6 +50,11 @@ p {
     margin-bottom: 15px; /* between paragraphs */
     }
 
+.center{
+    padding: 70px 0;
+    text-align: center;
+}    
+
 /* .beast-container-visible {
     display: flex;
     margin: 15px;
