@@ -106,3 +106,7 @@ p {
          justify-content: center;
     }
 }
+
+.random-quote {
+    cursor: pointer;
+}
