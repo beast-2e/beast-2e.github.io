@@ -68,15 +68,20 @@ p {
 
 .navbar-button a {
     display: inline-block;
+    float: right;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar-button a, button, button:focus {
     background-color: white;
     color: #909090;
     text-align: center;
     padding: 10px;
-    text-decoration: none;
     border-radius: 20px;
-    float: right;
-    margin-right: 10px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.0), 0 3px 10px 0 rgba(0, 0, 0, 0.085);
+    border: none;
+    background: none;
 }
 
 .navbar-button-current a {
@@ -84,7 +89,7 @@ p {
     color: white;
 }
 
-.navbar-button a:hover {
+.navbar-button a:hover, button:hover {
     background-color: black;
     color: white;
 }
