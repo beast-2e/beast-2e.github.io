@@ -92,7 +92,7 @@ var quotes = Array(
     "\"They go in and out of being gay with ease.\"\n(2022-2023)",
     "\"You can put the bodies in my room.\"\n(2022-2023)",
     "\"I'm mentally stable, but not stable at a good point.\"\n(2022-2023)",
-    "\"One man's 🅱️rash is another man's  🅱️reasure.\"\n(2022-2023)",
+    "\"One man's Brash is another man's  Breasure.\"\n(2022-2023)",
     "\"If you see a tall person, remember to remind them that they are tall and ask them how the weather is up there.\"\n(2022-2023)",
     "\"Coding is a pyramid scheme.\"\n(2022-2023)",
     "\"Don't stay inside for too long, kids: you'll learn Haskell!\"\n(2022-2023)",
