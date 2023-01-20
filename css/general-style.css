@@ -28,6 +28,7 @@ p {
 .box {
     padding-top: 15px;
     margin: auto;
+    margin-bottom: 100px;
     background-color: white;
     width: 75%;
     min-width: 425px;
