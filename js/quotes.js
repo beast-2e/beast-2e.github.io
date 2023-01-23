@@ -76,7 +76,7 @@ var quotes = Array(
     "\"Have you ever heard of Jesus? That ice cream had some fucking Jesus in it.\"\n(2022-2023)",
     "\"Jesus Christ? More like Jesus my testicles.\"\n(2022-2023)",
     "\"Everyone turn around.\"\n\"No.\"\n\"Then I cannot show you God.\"\n(2022-2023)",
-    "\"One nation, one and only.\"\n(2022-2023)",
+    "Reciting the Pledge of Allegiance: \"One nation, one and only.\"\n(2022-2023)",
     "\"My fifth grade teacher is basically the nucleation site of my memories.\"\n(2022-2023)",
     "\"If you think about it, elementary school is like P/NR.\"\n(2022-2023)",
     "On Brass Rats: \"It's just a silly litte capitalism thing.\"\n(2022-2023)",
@@ -99,6 +99,13 @@ var quotes = Array(
     "\"So I'm the bad guy for giving space to cats and letting them give me fish.\"\n(2022-2023)",
     "\"I don't speak: I just talk.\"\n(2022-2023)",
     "\"I feel like Buzzfeed speaks the universal human experience.\"\n(2022-2023)",
+    "\"I'm Brothing at the mouth for your Brother.\"\n(2022-2023)",
+    "\"I don't feel weird about your ears.\"\n(2022-2023)",
+    "\"Does anyone want the ground ... strawberry?\"\n(2022-2023)",
+    "\"Eight is a great number: it's twice as round as zero!\"\n(2022-2023)",
+    "\"I'm depressed but it's okay: CORGI\"\n(2022-2023)",
+    "\"It's like corn: it has layers.\"\n(2022-2023)",
+    "On rooibos tea: \"ROYGBV-TEA\"\n(2022-2023)"
 );
 
 function randomQuote() {
