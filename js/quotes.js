@@ -3,7 +3,7 @@ var quotes = Array(
     "\"I feel like rum-soaked gummy bears gives me sweatpants and Viagra vibes.\"\n(2021-2022)",
     "\"Adele could be complicit in war crimes.\"\n(2021-2022)",
     "\"Nelson Mandela is at work here.\"\n(2021-2022)",
-    "\"I'll ask my mom to email me my nerf guns.\"\n(2021-2022)",
+    "\"I'll ask my mom to email me my Nerf guns.\"\n(2021-2022)",
     "\"Would you rather be the size of a lake but extremely wise, a bird the size of a human but you retain your current level of wisdom, or have a powerful trunk and be slightly wiser?\"\n(2021-2022)",
     "\"The moral of the story is: don't eat before drinking.\"\n(2021-2022)",
     "\"I was a child sexist.\"\n(2021-2022)",
@@ -79,7 +79,7 @@ var quotes = Array(
     "Reciting the Pledge of Allegiance: \"One nation, one and only.\"\n(2022-2023)",
     "\"My fifth grade teacher is basically the nucleation site of my memories.\"\n(2022-2023)",
     "\"If you think about it, elementary school is like P/NR.\"\n(2022-2023)",
-    "On Brass Rats: \"It's just a silly litte capitalism thing.\"\n(2022-2023)",
+    "On Brass Rats: \"It's just a silly little capitalism thing.\"\n(2022-2023)",
     "On an anonymous person washing dishes on hall: \"This feels like the communal kitchen version of, 'I can change him'.\"\n(2022-2023)",
     "\"I've been meowing since Sonic.\"\n(2022-2023)",
     "\"Are you okay? You're not making 'your mom' jokes any more.\"\n(2022-2023)",
@@ -105,7 +105,8 @@ var quotes = Array(
     "\"Eight is a great number: it's twice as round as zero!\"\n(2022-2023)",
     "\"I'm depressed but it's okay: CORGI\"\n(2022-2023)",
     "\"It's like corn: it has layers.\"\n(2022-2023)",
-    "On rooibos tea: \"ROYGBV-TEA\"\n(2022-2023)"
+    "On rooibos tea: \"ROYGBV-TEA\"\n(2022-2023)",
+    "On the Kingkiller Chronicle:\n\"Huh, why do we have such different memories of this book?\"\n\"Maybe because I read this book in high school, and I'm not obsessed with women.\"\n(2022-2023)"
 );
 
 function randomQuote() {
