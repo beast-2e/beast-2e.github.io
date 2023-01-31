@@ -106,7 +106,27 @@ var quotes = Array(
     "\"I'm depressed but it's okay: CORGI\"\n(2022-2023)",
     "\"It's like corn: it has layers.\"\n(2022-2023)",
     "On rooibos tea: \"ROYGBV-TEA\"\n(2022-2023)",
-    "On the Kingkiller Chronicle:\n\"Huh, why do we have such different memories of this book?\"\n\"Maybe because I read this book in high school, and I'm not obsessed with women.\"\n(2022-2023)"
+    "On the Kingkiller Chronicle:\n\"Huh, why do we have such different memories of this book?\"\n\"Maybe because I read this book in high school, and I'm not obsessed with women.\"\n(2022-2023)",
+    "\"Guys! We made 2^1 cookies.\"\n(2022-2023)",
+    "On Nertz:\n\"It's not an addiction: it's an obsession.\"\n\"It's a lifestyle.\"\n(2022-2023)",
+    "On the LD50 of Nertz: \"We're gonna play Nertz until half of us die.\"\nLater: \"With the LD50 thing, I'm okay with you guys saying it at my funeral.\"\n(2022-2023)",
+    "\"It's not just rats: people die, too.\"\n(2022-2023)",
+    "\"Your mother is the queen of spades.\"\n(2022-2023)",
+    "\"'Do you like tasty?' Was that a threat?!\"\n(2022-2023)",
+    "\"Sometimes I forget I'm not a car.\"\n(2022-2023)",
+    "\"Does it have to be true? No, it just has to be in Spanish.\"\n(2022-2023)",
+    "\"Why walk when you can go in an ambulance?\"\n(2022-2023)",
+    "\"Why get AdBlock when you could get laundry that stays fresh for weeks?\"\n(2022-2023)",
+    "\"The L in love stands for lung cancer.\"\n(2022-2023)",
+    "\"There's a woman and a fossil and they're in love.\"\n(2022-2023)",
+    "\"Step one: admitting you're an arsonist.\"\n(2022-2023)",
+    "\"Shaking SMHing my head\"\n(2022-2023)",
+    "\"You don't have to murder your husband: it's just a vibe if you do.\"\n(2022-2023)",
+    "\"Hexagons are the bestagons.\"\n(2022-2023)",
+    "\"Look, it's a burger.\"\n\"Me too.\"\n(2022-2023)",
+    "\"You get to date the general concept of the brainstem.\"\n(2022-2023)",
+    "\"Wait, you shouldn't eat knives?\"\n(2022-2023)",
+    "\"Tears get in the way of Nertz.\"\n(2022-2023)"
 );
 
 function randomQuote() {
