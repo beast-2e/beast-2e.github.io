@@ -42,3 +42,21 @@ li a:hover {
   color: white;
   border-radius: 20px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+figure {
+  margin: auto;
+}
+
+figcaption {
+  font-style: italic;
+  padding: 4px;
+  text-align: center;
+  font-size: 14px;
+}
