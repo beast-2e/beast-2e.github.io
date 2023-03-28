@@ -167,7 +167,7 @@ var quotes = Array(
     "\"Life is fake.\"\n\"But Nertz is real.\"",
     "\"You're like me playing Nertz, but in real life.\"",
     "Beast discussing the math department Pi Day celebration:\n\"They bought 2 pies for 100 people.\"\n\"#math.\"",
-    "\"I played 3 hours of Nertz today.\"\n\"No, you've played\" — checks watch — \"4 minutes of Nertz today.\"",
+    "\"I played 3 hours of Nertz today.\"\n\"No, you've played *checks watch* 4 minutes of Nertz today.\"",
     "*sniff sniff* \"Smells like an omega right there.\"",
     "\"That was an unsatisfying game of Nertz. It was too long. We should play again.\"",
     "\"SO TRUE GIRLFRIENDS KILL\"",
