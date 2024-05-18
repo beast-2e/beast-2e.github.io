@@ -17,6 +17,8 @@ The files that are most relevant to any changes that you might want to make are 
 
 To see how things are set up, feel free to open up any of the files ending in `.html` in your favorite editor! You can gauge the effects of any changes you make by double-clicking on the `.html` file, which should open it up in your web browser.
 
+Note: To update quotes, simply update `js/quotes.js`! Make sure to add quotation marks (including `\"`s, which add quotation marks that are visible on the page) and trailing commas on each entry. Displayed quotes are randomly generated; to test newly added quotes, comment out the lines for all the other ones that you don't want to see in the moment.
+
 ## 2. Share changes
 
 Once you've made changes that you're happy with, let's get those updates in the cloud as well!
