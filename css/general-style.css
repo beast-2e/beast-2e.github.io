@@ -1,10 +1,14 @@
+:root {
+    color-scheme: light dark;
+}
+
 * {
     font-family: Trebuchet MS;
     text-align: left;
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: light-dark(#f0f0f0, #000000);
     height: 100vh;
     width: 100vw;
     font-size: 1.15em;
@@ -28,7 +32,7 @@ p {
 .box {
     padding-top: 15px;
     margin: auto;
-    background-color: white;
+    background-color: light-dark(white, #202020);
     width: 75%;
     min-width: 425px;
     border-radius: 20px;
@@ -49,12 +53,12 @@ p {
 }
 
 .box-content {
-    background: white;
+    background: light-dark(white, #202020);
     padding: 20px;
 }
 
 .top-banner {
-    background-color:           white;
+    background-color:           light-dark(white, #202020);
 }
 
 .navbar-container {
@@ -73,24 +77,24 @@ p {
 }
 
 .navbar-button a, button, button:focus {
-    background-color: white;
+    background-color: light-dark(white, #202020);
     color: #909090;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.0), 0 3px 10px 0 rgba(0, 0, 0, 0.085);
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
     border: none;
     background: none;
 }
 
 .navbar-button-current a {
-    background-color: #909090;
+    background-color: light-dark(#909090, black);
     color: white;
 }
 
 .navbar-button a:hover, button:hover {
-    background-color: black;
-    color: white;
+    background-color: light-dark(black, #909090);
+    color: light-dark(white, black);
 }
 
 #beast-logo {
