@@ -11,7 +11,7 @@ If you've never written a line of code before, don't worry: the README (this doc
 
 Stuck or have questions? Reach out to Teresa (t_gao@mit.edu*) or current members of Beast WebComm (beastsite@mit.edu). We also have a [channel in the Beast Discord](https://discord.com/channels/631269317513707549/1016902588354007131) precisely for this purpose.
 
-* I graduated in 2023 and am no longer at MIT, but I don't bite!
+\* I graduated in 2023 and am no longer at MIT, but I don't bite!
 
 ## 0. Set up
 
