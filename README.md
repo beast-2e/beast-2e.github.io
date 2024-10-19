@@ -1,6 +1,17 @@
-# Welcome to Beastsite 2.0!
+# Welcome to Beastsite 3.0!
 
-A lot of the setup for this version of Beast's website has been made by Teresa (t_gao@mit.edu), so for anyone making future changes, please let me know if anything is confusing or could be made more efficient and I'll try to help! Other members of Beast WebComm can be reached via beastsite@mit.edu; we also have [a channel in the Beast Discord](https://discord.com/channels/631269317513707549/1016902588354007131) for this purpose.
+This is the third major iteration of the Beast website, whose current version can be viewed [here](https://www.mit.edu/~beast).
+
+If you've never written a line of code before, don't worry: the README (this document!) contains instructions to help you get started and will walk you through the steps needed to help develop and maintain our beloved Beastsite:
+
+0. Setup
+1. Making changes
+2. Sharing changes to GitHub
+3. Updating the actual website on Athena
+
+Stuck or have questions? Reach out to Teresa (t_gao@mit.edu*) or current members of Beast WebComm (beastsite@mit.edu). We also have a [channel in the Beast Discord](https://discord.com/channels/631269317513707549/1016902588354007131) precisely for this purpose.
+
+\* I graduated in 2023 and am no longer at MIT, but I don't bite!
 
 ## 0. Set up
 
@@ -13,15 +24,15 @@ The first thing you'll want to do is clone this repository (repo), which effecti
 
 ## 1. Make changes
 
-The files that are most relevant to any changes that you might want to make are the HTML files followed by the CSS files. (`images/` is a directory containing the Beast logo and Beastie profile photos; `oldsite/` contains files from the old 2017 version of the website.)
+The files that are most relevant to any changes that you might want to make are the HTML files (page content) followed by the CSS files (page format).
 
 To see how things are set up, feel free to open up any of the files ending in `.html` in your favorite editor! You can gauge the effects of any changes you make by double-clicking on the `.html` file, which should open it up in your web browser.
 
 Note: To update quotes, simply update `js/quotes.js`! Make sure to add quotation marks (including `\"`s, which add quotation marks that are visible on the page) and trailing commas on each entry. Displayed quotes are randomly generated; to test newly added quotes, comment out the lines for all the other ones that you don't want to see in the moment.
 
-## 2. Share changes
+## 2. Share changes to GitHub
 
-Once you've made changes that you're happy with, let's get those updates in the cloud as well!
+So you've made changes that you're happy with, and these changes live on your computer. Let's get those updates in the cloud as well by *pushing* them to GitHub, where our code repository is stored!
 
 1. On command line, navigate to your repository.
 2. To check which files you've changed, run `git status`. The names of the changed files should appear in red.
@@ -30,9 +41,9 @@ Once you've made changes that you're happy with, let's get those updates in the 
 5. Now that you've added your changes, it's time to name them (so that, when you or a fellow Beastie is looking through the history of the repo, they can remember what exactly it was that you were trying to do here). Run `git commit -m "insert explanation of your changes here"`.
 6. Finally, run `git push`! This will transfer your changes from your local computer all the way to GitHub so that other people with access to this repo can view the code for your changes. Note that if other people have been working on this repo simultaneously, you may need to run `git pull` first to incorporate their changes into your local copy, but only run this after running `git commit` so you don't accidentally override your own changes.
 
-## 3. Update the actual website
+## 3. Update the actual website on Athena
 
-The previous step saved your changes from your local computer to GitHub. Now, we need to make sure MIT Athena has your changes!
+The previous step saved your changes from your local computer to GitHub. Now, we need to make sure MIT Athena has your changes so that you can see the changes you made on the actual website!
 
 1. Connect to Athena by opening Terminal, PowerShell, or any similar command prompt-y program on your computer and typing `ssh yourkerb@athena.dialup.mit.edu`.
 2. After you hit Enter, follow the prompts to enter your password and authenticate via Duo.
