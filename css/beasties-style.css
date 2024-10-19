@@ -1,41 +1,42 @@
-.beastie-list {
+.beastie-grid {
     display: flex;
+    align-items: column;
     flex-wrap: wrap;
+    gap: 1em;
 }
 
 .beastie-img{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-    display: inline-block;
+    width: 8em;
+    height: 8em;
     border-radius: 50%;
-    
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 0px;
-    padding: 20px;
 }
 
 .beastie-container{
     display: flex;
-    width: 815px;
-    margin: 20px 100px 20px 100px;
+    flex-direction: row;
+    gap: 1em;
+    align-items: flex-start;
+    outline: 3px solid red;
+    width: 100%;
 }
 
-.beastie-name{
-    object-position: center;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 10px;
-    font-size: 25px;
+.beastie-bio {
+    outline: 3px solid blue;
+    width: 100%;
 }
 
-.beastie-name pronouns{
-    font-size: 16px;
-    color: gray;
+.beastie-bio pronouns{
+    color: #bababa;
 }
 
-.beastie-text{
-    font-size: 16px;
+@media only screen and (max-width: 800px) {
+    .beastie-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .beastie-container{
+        flex-direction: column;
+        align-items: center;
+    }
 }
