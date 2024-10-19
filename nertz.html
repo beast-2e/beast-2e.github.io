@@ -1,6 +1,7 @@
 <!DOCTYPE html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
         <title>Nertz | Beast</title>
 
         <link rel="icon" type="image/x-icon" href="images/beast-logo.png">
@@ -9,20 +10,29 @@
         <link rel="stylesheet" type="text/css" href="css/nertz-style.css">
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="js/navbar.js" async></script>
     </head>
 
     <body>
         <div id="banner">
-            <div id="beast-brand">
-                <a href= "index.html"><img id="beast-logo" src="images/beast-logo.png" alt="Beast logo"></a>
-                <a id="beast-title" href="index.html">Beast: 2E @ MIT East Campus</a>
+            <div id="navbar-mobile">
+                <div id="beast-brand">
+                    <a href= "index.html"><img id="beast-logo" src="images/beast-logo.png" alt="Beast logo"></a>
+                    <a id="beast-title" href="index.html">Beast: 2E @ MIT East Campus</a>
+                </div>
+
+                <a href="javascript:void(0);" id="navbar-symbol" onclick="toggleNavbar()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
 
             <div id="navbar">
-                <a href="beasties.html">Beasties</a>
-                <a href="quotes.html">Quotes</a>
-                <a href="waffles.html">Waffles</a>
-                <a href="nertz.html">Nertz</a>
+                <a href="beasties.html" class="toggle-hide">Beasties</a>
+                <a href="quotes.html" class="toggle-hide">Quotes</a>
+                <a href="waffles.html" class="toggle-hide">Waffles</a>
+                <a href="nertz.html" class="toggle-hide">Nertz</a>
             </div>
         </div>
 

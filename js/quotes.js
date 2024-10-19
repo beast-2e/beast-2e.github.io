@@ -186,7 +186,7 @@ var quotes = Array(
     "\"When you play Nertz, you lose the ability to count past 13.\"",
     "Beast discussing drink carbonation:\n\"It's angry.\"\n\"It's bloodletting.\"",
     "\"I forgot the mu naught like a person who makes mistakes but is not an idiot.\"",
-    "\"Babe wake up it's time to sleep\"",
+    "\"Babe wake up it's time to sleep.\"",
     "\"Let's cap it at the furry shit.\"",
     "\"It's on the posters.\"\n\"Oh I don't use my eyes.\"",
     "\"I think the hot dog is RP^infinity.\"",
