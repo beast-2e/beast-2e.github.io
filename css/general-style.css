@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-h1, h2 {
+h1 {
     text-align: center;
 }
 
@@ -27,6 +27,8 @@ p {
 
 #banner-main {
     display: flex;
+    align-self: start;
+    flex-grow: 0;
     align-items: center;
     justify-content: space-around;
     background: black;

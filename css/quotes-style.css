@@ -1,0 +1,20 @@
+button {
+    margin-top: 1.5em;
+    background: #bababa;
+    border: none;
+    padding: 1em;
+    font-size: 1.25em;
+    border-radius: 0.5em;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+#quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
