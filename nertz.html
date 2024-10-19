@@ -1,80 +1,57 @@
 <!DOCTYPE html>
     <head>
-        <title>Nertz | Murphy Book</title>
-        <link rel="icon" type="image/x-icon" href="../images/beast-logo.png">
+        <meta charset="UTF-8">
+        <title>Nertz</title>
 
-        <link rel="stylesheet" type="text/css" href="../css/general-style.css">
-        <link rel="stylesheet" type="text/css" href="../css/murphy-style.css">
+        <link rel="icon" type="image/x-icon" href="images/beast-logo.png">
+
+        <link rel="stylesheet" type="text/css" href="css/general-style.css">
+        <link rel="stylesheet" type="text/css" href="css/nertz-style.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
     </head>
 
     <body>
-        <div id="page-container">
-            <div class="box">
-                <div class="box-top">
-                    <div class="top-banner">
-                        <h1>Beast</h1>
-                        <a href= "../index.html"><img id="beast-logo" src="../images/beast-logo.png" alt="Beast logo"></a>
-                        <h2>2E @ MIT East Campus</h2>
-                    </div>
-
-                    <div class="navbar-container">
-                        <div class="navbar-button">
-                            <a href="../index.html">Homepage</a>
-                        </div>
-
-                        <div class="navbar-button">
-                            <a href= "../hallrush.html">Hall Rush 2024</a>
-                        </div>
-
-                        <div class="navbar-button">
-                            <a href="../beasties.html">Meet the Beasties</a>
-                        </div>
-
-                        <div class="navbar-button navbar-button-current">
-                            <a href="../murphy.html">Murphy Book</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="box-bottom">
-                    <ul class="sidenav">
-                        <!-- <li><a href="./gallery.html">Gallery</a></li> -->
-                        <li><a href="./quotes.html">Quotes</a></li>
-                        <li><a href="./recipes.html">Recipes</a></li>
-                        <li><a href="./nertz.html" class="murphy-current">Nertz</a></li>
-                    </ul>
-
-                    <div class="box-content">
-                        
-                        <p>
-                            <b>Nertz</b> is a game of competitive speed solitaire, first introduced on Beast in the fall of 2022. 
-                            It has since become <strike>an addiction</strike> a hall tradition to play Nertz every day!
-                        </p>
-                        <p>Most consecutive days of Nertz played:</p>
-                        <h1>80 days</h1>
-                        <p>Most games played in one day:</p>
-                        <h1>75 games</h1>
-                        <p>Fastest game of Nertz played:</p>
-                        <h1>7.75 seconds</h1>
-                        <p>Number of people who still can't shuffle:</p>
-                        <h1>0 people</h1>
-                        <figure>
-                            <img src="../images/cookie-card-deck.jpeg" style="width:50%" class="center">
-                            <figcaption>Cookie card deck to celebrate our 52nd day of Nertz! (3/9/23)</figcaption>
-                        </figure>
-                        
-                        <script  type="text/javascript">
-                            var initialDate = new Date(2023, 0, 16); // Jan 16th 2023
-                            var now = Date.now();
-                            var difference = now - initialDate;
-                            var millisecondsPerDay = 24 * 60 * 60 * 1000;
-                            var daysSince = Math.floor(difference / millisecondsPerDay);
-
-                            document.getElementById('show').innerHTML = daysSince.toString();
-                        </script>
-                    </div>
-                </div>
+        <div id="banner-main" class="banner">
+            <div id="beast-brand">
+                <a href= "index.html"><img id="beast-logo" src="images/beast-logo.png" alt="Beast logo"></a>
+                <a id="beast-title" href="index.html">Beast: 2E @ MIT East Campus</a>
             </div>
+
+            <div id="navbar">
+                <a href="beasties.html">Beasties</a>
+                <a href="quotes.html">Quotes</a>
+                <a href="waffles.html">Waffles</a>
+                <a href="nertz.html">Nertz</a>
+            </div>
+        </div>
+
+        <div id="main-content">
+            <h1>Nertz</h1>
+
+            <p>
+                <b>Nertz</b> is a game of competitive speed solitaire, first introduced on Beast in the fall of 2022.
+                It has since become <strike>an addiction</strike> a hall tradition to play Nertz every day!
+            </p>
+            <p>Most consecutive days of Nertz played: <b>80 days</b></p>
+            <p>Most games played in one day: <b>75 games</b></p>
+            <p>Fastest game of Nertz played: <b>7.75 seconds</b></p>
+            <p>Number of people who still can't shuffle: <b>0 people</b></p>
+
+            <figure>
+                <img id="nertz-photo" src="images/cookie-card-deck.jpeg">
+                <figcaption>Cookie card deck to celebrate our 52nd day of Nertz! (3/9/23)</figcaption>
+            </figure>
+
+            <script  type="text/javascript">
+                var initialDate = new Date(2023, 0, 16); // Jan 16th 2023
+                var now = Date.now();
+                var difference = now - initialDate;
+                var millisecondsPerDay = 24 * 60 * 60 * 1000;
+                var daysSince = Math.floor(difference / millisecondsPerDay);
+
+                document.getElementById('show').innerHTML = daysSince.toString();
+            </script>
         </div>
     </body>
 </html>
