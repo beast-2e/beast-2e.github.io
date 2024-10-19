@@ -24,7 +24,7 @@ The first thing you'll want to do is clone this repository (repo), which effecti
 
 ## 1. Make changes
 
-The files that are most relevant to any changes that you might want to make are the HTML files followed by the CSS files. (`images/` is a directory containing the Beast logo and Beastie profile photos; `oldsite/` contains files from the old 2017 version of the website.)
+The files that are most relevant to any changes that you might want to make are the HTML files (page content) followed by the CSS files (page format).
 
 To see how things are set up, feel free to open up any of the files ending in `.html` in your favorite editor! You can gauge the effects of any changes you make by double-clicking on the `.html` file, which should open it up in your web browser.
 
