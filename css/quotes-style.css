@@ -1,15 +1,16 @@
 button {
     margin-top: 1.5em;
-    background: #bababa;
+    background: black;
     border: none;
-    padding: 1em;
+    padding: 0.75em;
     font-size: 1.25em;
     border-radius: 0.5em;
+    color: white;
 }
 
 button:hover {
     cursor: pointer;
-    color: white;
+    color: #bababa;
 }
 
 
