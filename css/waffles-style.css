@@ -1,15 +1,16 @@
-div.gallery {
-  margin: 5px;
-  float: left;
-  width: 180px;
-}
-
-div.gallery img {
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1em;
   width: 100%;
-  height: auto;
 }
 
-div.desc {
-  /* padding: 15px; */
+.gallery-item img {
+  height:8em;
+  width: auto;
+}
+
+.desc {
   text-align: center;
 }
