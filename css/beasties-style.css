@@ -1,10 +1,10 @@
 a {
     text-decoration: none;
-    color: black;
+    color: light-dark(black, white);
 }
 
 a:hover {
-    color: #bababa;
+    color: light-dark(#898989, #bababa);
 }
 
 .beastie-grid {
@@ -33,7 +33,7 @@ a:hover {
 }
 
 .beastie-bio pronouns{
-    color: #bababa;
+    color: light-dark(#bababa, #898989);
 }
 
 .beastie-name {
