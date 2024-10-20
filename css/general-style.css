@@ -20,6 +20,7 @@ body {
 button {
     border: none;
     color: light-dark(#898989, white);
+    text-align: center;
 }
 
 button:hover {
@@ -71,7 +72,6 @@ p {
 }
 
 #beast-title {
-    margin: auto;
     font-size: 1.5em;
 }
 
@@ -85,14 +85,14 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     gap: 2em;
-    height: 5em;
 }
 
 #navbar button {
+    text-align: center;
     font-size: 1em;
     border: none;
     color: light-dark(#898989, white);
-    height: 100%;
+    height: 5em;
 }
 
 #navbar button:hover {
@@ -137,23 +137,28 @@ p {
         padding-bottom: 0;
     }
 
-    #beast-title {
-        font-size: 1.25em;
-    }
-
     #navbar-symbol {
-        display: inline;
+        display: flex;
+        align-items: center;
+        height: 4em;
     }
 
     #banner {
         flex-direction: column;
-        padding-bottom: 0.75em;
     }
 
     #navbar {
         flex-direction: column;
         align-items: center;
-        gap: 1em;
+        width: 100%;
+        gap: 0;
+    }
+
+    #navbar button {
+        width: 100%;
+        height: 3em;
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
     }
 
     .toggle-hide {
@@ -162,11 +167,5 @@ p {
 
     .toggle-show {
         display: inline;
-    }
-}
-
-@media (max-width: 25em) {
-    #beast-title {
-        font-size: 1em
     }
 }
