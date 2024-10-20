@@ -1,10 +1,11 @@
-/*:root {
+:root {
     color-scheme: light dark;
-}*/
+}
 
 * {
     font-family: "Open Sans";
     text-align: left;
+    background: light-dark(white, #121212);
 }
 
 
@@ -37,11 +38,13 @@ p {
     flex-grow: 0;
     align-items: center;
     justify-content: space-around;
-    background: black;
-    color: white;
+    color: light-dark(black, white);
     width: 100%;
     padding-top: 0.75em;
     padding-bottom: 0.75em;
+    margin-bottom: -1px;
+    outline: 1px solid;
+    outline-color: light-dark(#dddddd, #222222);
 }
 
 #beast-logo {
@@ -64,7 +67,7 @@ p {
 
 #main-content {
     width: 50%;
-    margin: 0 0.5em 0.5em 0.5em;
+    margin-top: 0.5em;
 }
 
 #navbar {
@@ -75,14 +78,13 @@ p {
     font-size: 1em;
 }
 
-
 #banner a {
     text-decoration: none;
-    color: #bababa;
+    color: light-dark(#898989, #bababa);
 }
 
 #banner a:hover {
-    color: white;
+    color: light-dark(black, white);
 }
 
 .footnote {
