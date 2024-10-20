@@ -18,10 +18,10 @@
     <body>
         <div id="banner">
             <div id="navbar-mobile">
-                <div id="beast-brand">
-                    <a href= "index.html"><img id="beast-logo" src="images/beast-logo.png" alt="Beast logo"></a>
-                    <a id="beast-title" href="index.html">Beast: 2E @ MIT East Campus</a>
-                </div>
+                <button id="beast-brand" onclick="window.location.href='index.html'">
+                    <img id="beast-logo" src="images/beast-logo.png" alt="Beast logo">
+                    <p id="beast-title">Beast: 2E @ MIT East Campus</p>
+                </button>
 
                 <a href="javascript:void(0);" id="navbar-symbol" onclick="toggleNavbar()">
                     <i class="fa fa-bars"></i>
@@ -29,10 +29,10 @@
             </div>
 
             <div id="navbar">
-                <a href="beasties.html" class="toggle-hide">Beasties</a>
-                <a href="quotes.html" class="toggle-hide">Quotes</a>
-                <a href="waffles.html" class="toggle-hide">Waffles</a>
-                <a href="nertz.html" class="toggle-hide">Nertz</a>
+                <button onclick="window.location.href='beasties.html'" class="toggle-hide">Beasties</button>
+                <button onclick="window.location.href='quotes.html'" class="toggle-hide">Quotes</button>
+                <button onclick="window.location.href='waffles.html'" class="toggle-hide">Waffles</button>
+                <button onclick="window.location.href='nertz.html'" class="toggle-hide">Nertz</button>
             </div>
         </div>
         
