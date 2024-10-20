@@ -1,4 +1,5 @@
 var quotes = Array(
+
     // 2021-2022
     "\"I feel like rum-soaked gummy bears gives me sweatpants and Viagra vibes.\"",
     "\"Adele could be complicit in war crimes.\"",
@@ -19,7 +20,6 @@ var quotes = Array(
     "\"You're expecting to get off, and then everybody dies.\"",
     "\"God should have left that in the drafts.\"",
     "\"I'm like porn for librarians in a hireable sense.\"",
-    // "\"I hate it. It makes me anxious, and the thought of it makes me angry.\"",
     "\"They probably think I'm some tweaker-ass bitch who has no concept of life itself.\"",
     "\"I horned up midway through ninth grade.\"",
     "\"I like hills more than stairs in a philosophical sense.\"",
@@ -60,6 +60,7 @@ var quotes = Array(
     "\"The Earth's rotation around the sun is a viscous [sic] cycle.\"",
     "\"I hope people describe me as a drunk.\"",
     "\"You uterus-less fool!\"",
+
 
     // 2022-2023
     "\"Deep and complex; it makes the meat taste meatier.\"",
@@ -217,7 +218,8 @@ var quotes = Array(
     "\"The line between gay and Karen is very fine.\"",
     "\"I think you shouldn't ride a horse here anyways: you'd get decapitated.\"",
     "\"The eggs are ambidextrous?\"",
-    
+
+
     // 2023-2024
     "\"It's like self-deprecating, but deprecating other people!\"",
     "\"I'm like a big pea fan.\"",
@@ -308,6 +310,38 @@ var quotes = Array(
     "\"Would you want me as your emotionally stable elder brother?\"",
     "\"You know, a bee being violent is basically like a bee twerking.\"",
     "\"I wish there are sexier chairs.\"",
+    "\"You seem to be a person who knows about drug things.\"",
+    "\"I'm a gender absurdist.\"\n\"And I'm a denialist.\"",
+    "\"Please stab me through the hole.\"",
+    "\"Do you want tomato juice? You should drink a lot of tomato juice. Oh god my stomach hurts.\"",
+    "\"His specs (as a PC) are my type, but I don't know if his emotional performance is enough for the games I want to play.\"",
+    "\"MacGregor is gregging.\"",
+    "\"Call me the MBTA because I break down frequently.\"",
+    "\"How was work?\"\n\"Good, I make large language models yap.\"",
+    "\"I could extract ... some meaning.\"",
+    "Beast discussing tech bros:\n\"Is there a word like techgirl?\"\n\"Mommy?\"",
+    "\"Friendship ended with twink aesthetic; now yacht club MILFie aesthetic is my BFF.\"",
+    "\"I would like you to know the idea of giving someone else part of my paycheck was so terrifying, it woke me up from almost falling asleep \\hj\"",
+    "\"The emotional foreplay of therapy hadn't even started yet and she's already gone.\"",
+    "\"Scooter girl summer won't scoot itself.\"",
+    "\"And then I say, \"Screw you\" — I don't say that I'm meaner.\"",
+    "\"Screwdriver is like a helpful stick basically.\"",
+    "\"I think she is pretty Sanrio-agnostic.\"",
+    "\"I don't think I see any that are just 'the fuck.'\"",
+    "\"Do class years of indeterminate genders count?\"",
+    "\"You're not cute: you're a badass hottie baddie bitch.\"",
+    "\"Stick it in harder.\"",
+    "\"Still a pedantic asshole, just smaller packaging.\"",
+
+
+    // 2024-2025
+    "\"Convenience is the thing to strive for and any safety benefits are purely coincidental.\"",
+    "\"We play with very different sets of balls.\"",
+    "\"Mommy knows best.\"",
+    "\"There's a lot of pride in elephant cock.\"",
+    "Beast discussing a shot of mac and cheese: \"My tongue is too short for this.\"",
+    "\"I'm so sorry, you're so right! Okay, um. Perish.\"",
+    // "\".\"",
 );
 
 function randomQuote() {
