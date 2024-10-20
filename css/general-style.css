@@ -137,6 +137,10 @@ p {
         padding-bottom: 0;
     }
 
+    #beast-title {
+        font-size: 1.15em;
+    }
+
     #navbar-symbol {
         display: flex;
         align-items: center;

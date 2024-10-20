@@ -15,3 +15,10 @@ figcaption {
   font-style: italic;
   text-align: center;
 }
+
+
+@media (max-width: 37.5em) {
+  figure img {
+    width: 100%;
+  }
+}
