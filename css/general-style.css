@@ -17,6 +17,17 @@ body {
     align-items: center;
 }
 
+button {
+    border: none;
+    color: light-dark(#898989, white);
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    color: light-dark(black, #bababa);
+}
+
 h1 {
     text-align: center;
     font-size: 1.5em;
@@ -28,16 +39,18 @@ p {
 }
 
 
+.footnote {
+    font-size: 0.75em;
+}
+
+
 #banner {
     display: flex;
     align-self: start;
-    flex-grow: 0;
     align-items: center;
     justify-content: space-around;
     color: light-dark(black, white);
     width: 100%;
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
     margin-bottom: -1px;
     outline: 1px solid;
     outline-color: light-dark(#dddddd, #222222);
@@ -54,10 +67,11 @@ p {
     display: flex;
     align-items: center;
     gap: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
 }
 
 #beast-title {
-    margin: auto;
     font-size: 1.5em;
 }
 
@@ -71,7 +85,19 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     gap: 2em;
+}
+
+#navbar button {
+    text-align: center;
     font-size: 1em;
+    border: none;
+    color: light-dark(#898989, white);
+    height: 5em;
+}
+
+#navbar button:hover {
+    cursor: pointer;
+    color: light-dark(black, #bababa);
 }
 
 #banner a {
@@ -83,13 +109,10 @@ p {
     color: light-dark(black, white);
 }
 
-.footnote {
-    font-size: 0.75em;
-}
-
 #navbar-symbol {
     display: none;
 }
+
 
 @media (max-width: 60em) {
     #main-content {
@@ -110,12 +133,14 @@ p {
         width: 100%;
     }
 
-    #beast-title {
-        font-size: 1.25em;
+    #beast-brand {
+        padding-bottom: 0;
     }
 
     #navbar-symbol {
-        display: inline;
+        display: flex;
+        align-items: center;
+        height: 4em;
     }
 
     #banner {
@@ -125,7 +150,14 @@ p {
     #navbar {
         flex-direction: column;
         align-items: center;
-        gap: 1em;
+        width: 100%;
+        gap: 0;
+    }
+
+    #navbar button {
+        width: 100%;
+        height: 3em;
+        padding-bottom: 1em;
     }
 
     .toggle-hide {
@@ -134,11 +166,5 @@ p {
 
     .toggle-show {
         display: inline;
-    }
-}
-
-@media (max-width: 25em) {
-    #beast-title {
-        font-size: 1em
     }
 }
