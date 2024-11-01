@@ -61,6 +61,7 @@ p {
     display: block;
     height: 3.5em;
     border-radius: 50%;
+    outline: 1px solid black;
 }
 
 #beast-brand {
