@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Quotes | Beast</title>
+
+        <link rel="icon" type="image/x-icon" href="images/beast-logo.png">
+
+        <link rel="stylesheet" type="text/css" href="css/general-style.css">
+        <link rel="stylesheet" type="text/css" href="css/quotes-style.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="js/navbar.js" async></script>
+        <script src="js/quotes.js" async></script>
+    </head>
+
+    <body>
+        <div id="banner">
+            <div id="navbar-mobile">
+                <button id="beast-brand" onclick="window.location.href='index.html'">
+                    <img id="beast-logo" src="images/beast-logo.png" alt="Beast logo">
+                    <p id="beast-title">Beast: 2E @ MIT East Campus</p>
+                </button>
+
+                <a href="javascript:void(0);" id="navbar-symbol" onclick="toggleNavbar()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <div id="navbar">
+                <button onclick="window.location.href='beasties.html'" class="toggle-hide">Beasties</button>
+                <button onclick="window.location.href='quotes.html'" class="toggle-hide">Quotes</button>
+                <button onclick="window.location.href='waffles.html'" class="toggle-hide">Waffles</button>
+                <button onclick="window.location.href='nertz.html'" class="toggle-hide">Nertz</button>
+            </div>
+        </div>
+
+        <div id="main-content">
+            <h1>Quotes</h1>
+            <p>Sometimes, words happen. Occasionally, we remember to write them down.</p>
+            <p>Here, we've cataloged some of our favorite Beastie utterances, most of which are out of context (but let's be honest: were they any less random <i>with</i> context?).</p>
+            <p>Enjoy at your own risk.</p>
+
+            <div id="quote-container">
+                <button onclick="randomQuote()">Click for a random (real) Beastie quote!</button>
+                <p id="random-quote"></p>
+            </div>
+        </div>
+    </body>
+</html>

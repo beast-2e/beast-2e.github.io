@@ -1,0 +1,24 @@
+figure {
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+figure img {
+  display: block;
+  width: 50%;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 37.5em) {
+  figure img {
+    width: 100%;
+  }
+}

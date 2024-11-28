@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Nertz | Beast</title>
+
+        <link rel="icon" type="image/x-icon" href="images/beast-logo.png">
+
+        <link rel="stylesheet" type="text/css" href="css/general-style.css">
+        <link rel="stylesheet" type="text/css" href="css/nertz-style.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="js/navbar.js" async></script>
+    </head>
+
+    <body>
+        <div id="banner">
+            <div id="navbar-mobile">
+                <button id="beast-brand" onclick="window.location.href='index.html'">
+                    <img id="beast-logo" src="images/beast-logo.png" alt="Beast logo">
+                    <p id="beast-title">Beast: 2E @ MIT East Campus</p>
+                </button>
+
+                <a href="javascript:void(0);" id="navbar-symbol" onclick="toggleNavbar()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <div id="navbar">
+                <button onclick="window.location.href='beasties.html'" class="toggle-hide">Beasties</button>
+                <button onclick="window.location.href='quotes.html'" class="toggle-hide">Quotes</button>
+                <button onclick="window.location.href='waffles.html'" class="toggle-hide">Waffles</button>
+                <button onclick="window.location.href='nertz.html'" class="toggle-hide">Nertz</button>
+            </div>
+        </div>
+
+        <div id="main-content">
+            <h1>Nertz</h1>
+            <p>
+                Nertz is a game of competitive speed solitaire, first introduced on Beast in the fall of 2022.
+                It has since become <strike>an addiction</strike> a hall tradition to play Nertz every day!
+            </p>
+
+            <p>Most consecutive days of Nertz played: <b>80 days</b></p>
+            <p>Most games played in one day: <b>75 games</b></p>
+            <p>Fastest game of Nertz played: <b>7.75 seconds</b></p>
+            <p>Number of people who still can't shuffle: <b>0 people</b></p>
+
+            <figure>
+                <img id="nertz-photo" src="images/cookie-card-deck.jpeg">
+                <figcaption>Cookie card deck to celebrate our 52nd day of Nertz! (March 9, 2023)</figcaption>
+            </figure>
+        </div>
+    </body>
+</html>
