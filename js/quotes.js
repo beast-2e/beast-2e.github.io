@@ -168,7 +168,7 @@ var quotes = Array(
     "\"Life is fake.\"\n\"But Nertz is real.\"",
     "\"You're like me playing Nertz, but in real life.\"",
     "Beast discussing the math department Pi Day celebration:\n\"They bought 2 pies for 100 people.\"\n\"#math.\"",
-    "\"I played 3 hours of Nertz today.\"\n\"No, you've played *checks watch* 4 minutes of Nertz today.\"",
+    "\"I played 3 hours of Nertz today.\"\n\"No, you've played\" (checks watch) \"4 minutes of Nertz today.\"",
     "*sniff sniff* \"Smells like an omega right there.\"",
     "\"That was an unsatisfying game of Nertz. It was too long. We should play again.\"",
     "\"SO TRUE GIRLFRIENDS KILL.\"",
@@ -249,7 +249,7 @@ var quotes = Array(
     "\"The weather outside is frightful, but the scallion pancakes are quite delightful!\"",
     "\"I also don't know what I'm doing with my life.\"\n\"But you have a lot of red flags.\"",
     "\"6-3s do good things for the world ... sometimes ... on some occasions ... when they feel like it.\"",
-    "\"Not to ruin the mood, but this is exactly where you'd get axe-murdered in a Criminal Minds episode.\"",
+    "\"Not to ruin the mood, but this is exactly where you'd get ax-murdered in a Criminal Minds episode.\"",
     "\"Making mistakes is a full-time occupation.\"",
     "\"He's like babygirl uncle vibes.\"",
     "\"I think I need to learn how to regulate my mouth.\"",
@@ -354,6 +354,17 @@ var quotes = Array(
     "\"I sound like a crack addict.\"",
     "\"What? You don't like ethnic cleansing?!\"",
     "\"I'm not looking up fish porn.\"",
+    "\"Is my ass fooded at all?\"",
+    "\"Each black card counts as 3/5 of a white card.\"",
+    "\"Is god not homophobic now?\"\n\"Maybe I'm straight now.\"",
+    "\"EC bathrooms are essentially the Sistine Chapel.\"\n\"I thought EC had a lower than average number of cis teens.\"",
+    "\"It's kind of weird talking to people without read receipts.\"",
+    "\"Love is temporary; mahjong is forever.\"",
+    "\"If your brain was a tooth, it would need so much dental filling.\"",
+    "\"What's a word that starts with H?! Oh, whore.\"",
+    "\"I think I could fuck that forklift.\"",
+
+    // Template for easier copy-pasting
     // "\".\"",
 );
 
