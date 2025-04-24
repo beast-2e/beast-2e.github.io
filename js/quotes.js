@@ -363,6 +363,15 @@ var quotes = Array(
     "\"If your brain was a tooth, it would need so much dental filling.\"",
     "\"What's a word that starts with H?! Oh, whore.\"",
     "\"I think I could fuck that forklift.\"",
+    "\"Have you just been giving people chlamydia?!\"",
+    "\"People are making babies, but they're getting eaten.\"",
+    "\"I'm gonna burn the penis!\"",
+    "\"Cwunchy? Why are the boobs cwunchy?\"",
+    "\"You might as well be turned into a soup.\"",
+    "\"You can come rotate my shapes.\"",
+    "\"What did you get? Sexy egg and cheese sandwich?\"",
+    "\"I could touch your junk but it's okay.\"",
+    "\"Writing is easy; trimming down to word limit is hard.\"\n\"This is why you go to Harvard and I go to MIT.\"",
 
     // Template for easier copy-pasting
     // "\".\"",
