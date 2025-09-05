@@ -9,11 +9,59 @@ If you've never written a line of code before, don't worry: the README (this doc
 2. Sharing changes to GitHub
 3. Updating the actual website on Athena
 
-Stuck or have questions? Reach out to Teresa (t_gao@mit.edu*) or current members of Beast WebComm (beastsite@mit.edu). We also have a [channel in the Beast Discord](https://discord.com/channels/631269317513707549/1016902588354007131) precisely for this purpose.
+Stuck or have questions? Reach out to Teresa (teresa.h.gao@alum.mit.edu*), Serena (anser@mit.edu), or current members of Beast WebComm (beastsite@mit.edu). We also have a [channel in the Beast Discord](https://discord.com/channels/631269317513707549/1016902588354007131) precisely for this purpose.
 
 \* I graduated in 2023 and am no longer at MIT, but I don't bite!
 
-## 0. Set up
+
+## The Short(er) Version (Newer Instructions)
+
+### 0. Set up
+
+On your local computer:
+```
+git clone https://github.com/beast-2e/beast-2e.github.io.git yourfoldername
+cd yourfoldername
+git checkout -b yourbranchname -t origin/main
+```
+
+### 1. Make changes
+
+On your file explorer app, double-click on a file that ends in `.html`, and it should open in your browser.
+
+The HTML files control content; the CSS files control style.
+
+If you want to add new quotes, then edit `js/quotes.js`.
+
+### 2. Share changes to GitHub
+
+```
+git status
+git add nameoffileyouchanged
+git commit -m "insert explanation of your changes here"
+git checkout main
+git merge yourbranchname
+git push
+```
+
+### 3. Update the actual website on Athena
+
+First, connect to Athena by 1) visiting https://athena.dialup.mit.edu or 2) running `ssh yourkerb@athena.dialup.mit.edu` on your local computer.
+
+Then, after you've been added to [beastsite@mit.edu](https://groups.mit.edu/webmoira/list/beastsite), run these commands:
+```
+cd /mit/beast/www
+git pull
+```
+
+To verify that your changes went through, visit the Beast website at https://www.mit.edu/~beast (or, equivalently, https://web.mit.edu/beast/www).
+
+Note that it may sometimes take a bit (maybe up to 30 minutes) for things to show up even if you did everything correctly, so don't immediately lose hope if nothing seems to have changed!
+
+
+## The Long Version (Older Instructions)
+
+### 0. Set up
 
 The first thing you'll want to do is clone this repository (repo), which effectively means that you're downloading a copy of all the files here and that the changes you make can eventually be seen here.
 
@@ -22,7 +70,7 @@ The first thing you'll want to do is clone this repository (repo), which effecti
 3. Type `git clone https://github.com/beast-2e/beast-2e.github.io.git` and hit enter; the code will appear in a folder called `beast-2e.github.io` (which you can get to via `cd beast-2e.github.io`). Optionally, you can type `git clone https://github.com/beast-2e/beast-2e.github.io.git yourfoldernamehere`, and the code will appear in whatever you call your subfolder.
 4. Once you've entered the repo, it's a good idea to create a branch so that your changes don't just go directly to the `main` branch. (In version control, branches are different tracks of history: like "what if" scenarios, but actually.) This is because sometimes people have simultaneous diverging ideas that would be confusing to add to the same branch at once. You can do this by running `git checkout -b yourbranchname -t origin/main`, which will create a new branch with your branch name that tracks the changes occurring on `main`.
 
-## 1. Make changes
+### 1. Make changes
 
 The files that are most relevant to any changes that you might want to make are the HTML files (page content) followed by the CSS files (page format).
 
@@ -30,7 +78,7 @@ To see how things are set up, feel free to open up any of the files ending in `.
 
 Note: To update quotes, simply update `js/quotes.js`! Make sure to add quotation marks (including `\"`s, which add quotation marks that are visible on the page) and trailing commas on each entry. Displayed quotes are randomly generated; to test newly added quotes, comment out the lines for all the other ones that you don't want to see in the moment.
 
-## 2. Share changes to GitHub
+### 2. Share changes to GitHub
 
 So you've made changes that you're happy with, and these changes live on your computer. Let's get those updates in the cloud as well by *pushing* them to GitHub, where our code repository is stored!
 
@@ -41,7 +89,7 @@ So you've made changes that you're happy with, and these changes live on your co
 5. Now that you've added your changes, it's time to name them (so that, when you or a fellow Beastie is looking through the history of the repo, they can remember what exactly it was that you were trying to do here). Run `git commit -m "insert explanation of your changes here"`.
 6. Finally, run `git push`! This will transfer your changes from your local computer all the way to GitHub so that other people with access to this repo can view the code for your changes. Note that if other people have been working on this repo simultaneously, you may need to run `git pull` first to incorporate their changes into your local copy, but only run this after running `git commit` so you don't accidentally override your own changes.
 
-## 3. Update the actual website on Athena
+### 3. Update the actual website on Athena
 
 The previous step saved your changes from your local computer to GitHub. Now, we need to make sure MIT Athena has your changes so that you can see the changes you made on the actual website!
 
