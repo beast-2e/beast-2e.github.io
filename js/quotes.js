@@ -397,7 +397,35 @@ var quotes = Array(
     "\"I'm pregaming the hentai event. Don't worry about it.\"",
     "\"That foot's doing weird things.\"\n\"You would to if you had 8 frames.\"",
     "\"Grooming 2: Electric Boogaloo.\"",
-    
+    "\"No cave can accommodate three snakes!\"",
+    "\"I can't just back into the shaft.\"",
+    "\"It's okay if I look through your feed because I won't judge you for any furry porn that's in it.\"",
+    "\"I hope that every time you get threatened in the future, you think of me.\"",
+    "\"More ass? Yeeeaaahh.\"",
+    "\"I just have to survive till Friday.\"\n\"It'd be nice if you didn't have to.\"",
+    "\"Do you know what else is a weird thing to say? Chlamydia.\"",
+    "\"I was told I should not meow because they don't like autistic people....\"",
+    "\"Well, it's a furry meme—not about touching toes.\"",
+    "\"I'm sorry this looks entirely inbred to me.\"",
+    "\"I feel like catboys have very little strategic value.\"",
+
+    // 2025-2026
+    "\"Do you need pads? They're on sale.\"\n\"What kind of pads?\"",
+    "\"Can you feel his kidney stone?\"",
+    "\"I was gonna sign us up for Pornhub, but it was already in use.\"",
+    "\"All the objects in my life are male.\"",
+    "\"I capitalize my numbers.\"",
+    "\"I think 2 is the hottest number because you can write it in so many different ways.\"",
+    "\"Why does no one trust me with a knife?\"",
+    "\"Do you wanna be less gay? We can make you less gay.\"",
+    "\"My earliest conscious memory was eating a McChicken.\"",
+    "\"Hyperfocus on your own dick.\"",
+    "\"Why are you touching Snorlax like that?\"",
+    "\"I am a necrophiliac.\"",
+    "\"Guys, check out my new fidget toy—OUCH!\"",
+    "\"I was about to say, I don't eat twinks.\"",
+    "\"Don't remind me his name, who's the guy that killed JFK ... Harriet Tubman.\"",
+
     // Template for easier copy-pasting
     // "\".\"",
 );
