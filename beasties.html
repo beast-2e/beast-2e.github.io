@@ -12,6 +12,8 @@
 
         <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
 
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
         <script src="js/beasties.js"></script>
     </head>
 
@@ -48,39 +50,39 @@
 
         <div class="container">
             <h1 class="mb-3">Meet the Beasties</h1>
-            <div id="beastieContainer" class="row"></div>
+            <div id="beastieContainer" class="row" data-masonry='{"percentPosition": true }'></div>
 
             <h1 class="mt-4 mb-3">Alums</h1>
-            <div id="alumContainer" class="row"></div>
+            <div id="alumContainer" class="row" data-masonry='{"percentPosition": true }'></div>
         </div>
     </body>
 
     <script>
-        const REM_WIDTH = 20;
         for (let beastie of BEASTIES) {
             let profile = `
-                <div class="card m-1" style="width: ${REM_WIDTH}rem;">
-                    <img src="${(beastie.headshotSrc) ? beastie.headshotSrc : 'images/beast-logo.png'}" class="rounded-circle w-75 d-block mx-auto mt-3 mb-0" alt="${beastie.name}">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">${beastie.name}</h5>
-                        <h6 class="card-subtitle text-body-secondary small">${beastie.pronouns}</h6>
-                    </div>
-                    <ul class="list-group list-group-flush">`
+                <div class="col col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card">
+                        <img src="${(beastie.headshotSrc) ? beastie.headshotSrc : 'images/beast-logo.png'}" class="rounded-circle w-75 d-block mx-auto mt-3 mb-0" alt="${beastie.name}">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">${beastie.name}</h5>
+                            <h6 class="card-subtitle text-body-secondary small">${beastie.pronouns}</h6>
+                        </div>
+                        <ul class="list-group list-group-flush">`
 
             if (beastie.year) {
-                profile += `<li class="list-group-item"><b>Year:</b> ${beastie.year}</li>`;
+                profile += `<li class="list-group-item small"><b>Year:</b> ${beastie.year}</li>`;
             }
             if (beastie.course) {
-                profile += `<li class="list-group-item"><b>Course:</b> ${beastie.course}</li>`
+                profile += `<li class="list-group-item small"><b>Course:</b> ${beastie.course}</li>`
             }
             profile += '</ul>'
             if (beastie.bio) {
                 profile += `
-                    <div class="card-body">
-                        <p class="card-text">${(beastie.bio) ? `"${beastie.bio}"` : ""}</p>
-                    </div>`;
+                        <div class="card-body">
+                            <p class="card-text small">${(beastie.bio) ? `"${beastie.bio}"` : ""}</p>
+                        </div>`;
             }
-            profile += '</div>'
+            profile += '</div></div>'
             profile = profile.replaceAll('<a ', '<a class="link-body-emphasis" '); // format all links the same
 
             if (beastie.isAlum) {
