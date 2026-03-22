@@ -20,27 +20,37 @@
     </head>
 
     <body>
-        <div id="banner">
-            <div id="navbar-mobile">
-                <button id="beast-brand" onclick="window.location.href='index.html'">
-                    <img id="beast-logo" src="images/beast-logo.png" alt="Beast logo">
-                    <p id="beast-title">Beast: 2E @ MIT East Campus</p>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                 <a class="navbar-brand" href="index.html">
+                    <img src="images/beast-logo.png" alt="Beast Logo" width="30" height="30" class="d-inline-block align-text-top">
+                    Beast: 2E @ MIT East Campus
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <a href="javascript:void(0);" id="navbar-symbol" onclick="toggleNavbar()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-
-            <div id="navbar">
-                <button onclick="window.location.href='beasties.html'" class="toggle-hide">Beasties</button>
-                <button onclick="window.location.href='quotes.html'" class="toggle-hide">Quotes</button>
-                <button onclick="window.location.href='waffles.html'" class="toggle-hide">Waffles</button>
-                <button onclick="window.location.href='nertz.html'" class="toggle-hide">Nertz</button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="beasties.html">Beasties</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quotes.html">Quotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="waffles.html">Waffles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="nertz.html">Nertz</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <div id="main-content">
+        <div class="container">
             <h1>Nertz</h1>
             <p>
                 Nertz is a game of competitive speed solitaire, first introduced on Beast in the fall of 2022.
