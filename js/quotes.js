@@ -1,5 +1,4 @@
-var quotes = Array(
-
+const QUOTES = [
     // 2021-2022
     "\"I feel like rum-soaked gummy bears gives me sweatpants and Viagra vibes.\"",
     "\"Adele could be complicit in war crimes.\"",
@@ -160,7 +159,7 @@ var quotes = Array(
     "\"You either die a foot-lover or live long enough to see yourself become foot-loving.\"",
     "\"It does not in fact taste like childhood: it tastes like corn.\"",
     "\"I'm not strong enough to grow apples either.\"",
-    "\"What bodily fluid is that?.\"\n\"Gatorade.\"",
+    "\"What bodily fluid is that?\"\n\"Gatorade.\"",
     "\"Brain? There. (I checked.)\"",
     "\"Banana, wine, and green: the three genders.\"",
     "\"When my happiness disappears, I produce milk tea.\"",
@@ -293,7 +292,7 @@ var quotes = Array(
     "\"How did I ask you to find something mathematical and you find anime?\"",
     "\"Some people are sexy blobs.\"",
     "\"I like tenderizing.\"",
-    "\"How do you sexually break someone's back?.\"\n\"With rizz.\"",
+    "\"How do you sexually break someone's back?\"\n\"With rizz.\"",
     "\"They don't call me Footcasso for nothing.\"",
     "\"She has a high tolerance for bullshit but a low tolerance for cringe.\"",
     "\"So you look at a fruit and just see a number?\"\n\"Yeah, bell pepper is 4688.\"",
@@ -428,9 +427,9 @@ var quotes = Array(
 
     // Template for easier copy-pasting
     // "\".\"",
-);
 
-function randomQuote() {
-    var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-    document.getElementById('random-quote').innerText = randomQuote;
-}
+    // Note: newlines (\n) don't work with jQuery, but we might want to keep
+    // them anyway in case we change to another implementation in the future.
+];
+
+Object.freeze(QUOTES);

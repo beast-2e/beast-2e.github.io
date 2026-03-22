@@ -7,17 +7,14 @@
 
         <link rel="icon" type="image/x-icon" href="images/beast-logo.png">
 
-        <link rel="stylesheet" type="text/css" href="css/general-style.css">
-        <link rel="stylesheet" type="text/css" href="css/quotes-style.css">
-
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-        <script src="js/navbar.js" async></script>
-        <script src="js/quotes.js" async></script>
+        <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+
+        <script src="js/quotes.js"></script>
     </head>
 
     <body>
@@ -54,13 +51,31 @@
         <div class="container">
             <h1>Quotes</h1>
             <p>Sometimes, words happen. Occasionally, we remember to write them down.</p>
-            <p>Here, we've cataloged some of our favorite Beastie utterances, most of which are out of context (but let's be honest: were they any less random <i>with</i> context?).</p>
+            <p>Here, we've documented some of our favorite Beastie utterances, most of which are out of context (but let's be honest: were they any less random <i>with</i> context?).</p>
             <p>Enjoy at your own risk.</p>
 
-            <div id="quote-container">
-                <button onclick="randomQuote()">Click for a random (real) Beastie quote!</button>
-                <p id="random-quote"></p>
-            </div>
+            <button id="getRandomQuote" type="button" class="btn btn-outline-light">Click for a random (real) Beastie quote!</button>
+            <p><i><span id="quote"></span></i></p>
         </div>
     </body>
+
+    <script>
+        const seenQuotes = [];
+        function randomQuote() {
+            let quoteText;
+            if (seenQuotes.length < QUOTES.length) {
+                let quoteNum = Math.floor(Math.random() * QUOTES.length);
+                while (seenQuotes.includes(quoteNum)) {
+                    quoteNum = Math.floor(Math.random() * QUOTES.length);
+                }
+                quoteText = QUOTES[quoteNum];
+                seenQuotes.push(quoteText);
+            } else {
+                quoteText = 'Congrats! You\'ve read all the quotes we have. That must mean it\'s time to document some new ones ...'
+            }
+            $('#quote').text(quoteText);
+        }
+
+        $('#getRandomQuote').click(randomQuote);
+    </script>
 </html>
