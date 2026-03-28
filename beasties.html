@@ -12,7 +12,7 @@
 
         <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
 
-        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" sync></script>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
         <script src="js/beasties.js"></script>
     </head>
@@ -49,15 +49,21 @@
         </div>
 
         <div class="container">
-            <h1 class="mb-3">Meet the Beasties</h1>
-            <div id="beastieContainer" class="row"></div>
+            <div id="loading" class="spinner-border" role="status"></div>
 
-            <h1 class="mt-4 mb-3">Alums</h1>
-            <div id="alumContainer" class="row"></div>
+            <div id="mainContent">
+                <h1 class="mb-3">Meet the Beasties</h1>
+                <div id="beastieContainer" class="row"></div>
+
+                <h1 class="mt-4 mb-3">Alums</h1>
+                <div id="alumContainer" class="row"></div>
+            </div>
         </div>
     </body>
 
     <script>
+        $('#mainContent').hide();
+
         for (let beastie of BEASTIES) {
             let profile = `
                 <div class="col col-lg-3 col-md-4 col-sm-6 mb-4">
@@ -99,6 +105,9 @@
                     $(img).one('load error', resolve);
                 }))
         ).then(() => {
+            $('#loading').hide();
+            $('#mainContent').show();
+
             new Masonry('#beastieContainer').layout();
             new Masonry('#alumContainer').layout();
         });
