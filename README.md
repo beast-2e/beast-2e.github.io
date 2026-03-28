@@ -32,6 +32,10 @@ Update `js/quotes.js`. Make sure to include `\"` (not just `"`) so that the word
 
 To test your changes, you can temporarily comment out everything except the quote(s) you added and refresh your local copy of `quotes.html` to make sure everything looks correct.
 
+### How can I debug formatting issues that I'm only seeing on the actual website?
+
+These might have to do with image/resource loading errors, which you won't see if you just open up, say, `index.html` locally. In order to reproduce these issues while you're developing, you'll need to install Node or Python and run something like `python -m http.server`. This will deploy the website to http://localhost:8000, allowing you to test scenarios like forcing the images/resources to be hard reloaded the same way as on the actual website.
+
 ### I'm stuck or have other questions!
 
 Reach out to current members of Beast WebComm (beastsite at mit dot edu). We also have a [channel in the Beast Discord](https://discord.com/channels/631269317513707549/1016902588354007131) that includes some alums who can also help.

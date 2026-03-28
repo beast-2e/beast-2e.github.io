@@ -12,7 +12,7 @@
 
         <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
 
-        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" sync></script>
 
         <script src="js/beasties.js"></script>
     </head>
@@ -50,10 +50,10 @@
 
         <div class="container">
             <h1 class="mb-3">Meet the Beasties</h1>
-            <div id="beastieContainer" class="row" data-masonry='{"percentPosition": true }'></div>
+            <div id="beastieContainer" class="row"></div>
 
             <h1 class="mt-4 mb-3">Alums</h1>
-            <div id="alumContainer" class="row" data-masonry='{"percentPosition": true }'></div>
+            <div id="alumContainer" class="row"></div>
         </div>
     </body>
 
@@ -91,5 +91,16 @@
                 $("#beastieContainer").append(profile);
             }
         }
+
+        Promise.all(
+            $('img').toArray()
+                .filter(img => !img.complete)
+                .map(img => new Promise(resolve => {
+                    $(img).one('load error', resolve);
+                }))
+        ).then(() => {
+            new Masonry('#beastieContainer').layout();
+            new Masonry('#alumContainer').layout();
+        });
     </script>
 </html>
