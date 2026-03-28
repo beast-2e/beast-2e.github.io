@@ -47,27 +47,33 @@
         </div>
 
         <div class="container">
-            <h1>Waffle Nights</h1>
+            <div id="loading" class="spinner-border" role="status"></div>
 
-            <p> As a hall, we hold regular waffle* nights as well as many other cooking events throughout the semester. Here's a sample of our cooking:</p>
+            <div id="mainContent">
+                <h1>Waffle Nights</h1>
 
-            <div id="waffleCarousel" class="carousel slide w-50 mx-auto mb-3">
-                <div class="carousel-indicators"></div>
-                <div class="carousel-inner"></div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#waffleCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#waffleCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <p> As a hall, we hold regular waffle* nights as well as many other cooking events throughout the semester. Here's a sample of our cooking:</p>
+
+                <div id="waffleCarousel" class="carousel slide w-50 mx-auto mb-3">
+                    <div class="carousel-indicators"></div>
+                    <div class="carousel-inner"></div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#waffleCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#waffleCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <p><i>* On a weekly basis, we hang out and bake sweet treats together: waffles not guaranteed, but good vibes are!</i></p>
             </div>
-
-            <p><i>* On a weekly basis, we hang out and bake sweet treats together: waffles not guaranteed, but good vibes are!</i></p>
         </div>
     </body>
     <script>
+        $('#mainContent').hide();
+
         let waffleNum = 0;
 
         for (let waffleSrc of WAFFLE_IMAGES) {
@@ -88,5 +94,16 @@
 
             waffleNum += 1;
         }
+
+        Promise.all(
+            $('img').toArray()
+                .filter(img => !img.complete)
+                .map(img => new Promise(resolve => {
+                    $(img).one('load error', resolve);
+                }))
+        ).then(() => {
+            $('#loading').hide();
+            $('#mainContent').show();
+        });
     </script>
 </html>
