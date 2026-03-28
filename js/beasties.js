@@ -63,9 +63,9 @@ const BEASTIES = [
         headshotSrc: 'images/Daniel.png',
         name: 'Daniel',
         pronouns: '',
-        year: "hahaha we'll see",
-        course: '21E -- 6 + CMS (computer science + comparative media studies)',
-        bio: 'Perennially reading "An Unkindness of Ghosts" and having too many media takes. May or may not spend too much time thinking about FRED DESK. &#x1F1F5;&#x1F1F7; &#x1F1F5;&#x1F1F7; &#x1F1F5;&#x1F1F7;',
+        year: '2027',
+        course: 'CMS + 21W',
+        bio: 'yfn HASS major // I fucking love this place // 🇵🇷 🇵🇷 🇵🇷',
         isAlum: false,
     },
 
@@ -485,7 +485,7 @@ const BEASTIES = [
         pronouns: 'she/her',
         year: '2023',
         course: '9 + 6-3 (brain and cognitive sciences + computer science and engineering)',
-        bio: 'I love to write, dance, play viola, and otherwise explore the great indoors. since 2022, i\'ve also been one of the people developing and maintaining this website! Feel free to say hi on Instagram: <a href="https://www.instagram.com/teresa_gao">@teresa_gao</a>.',
+        bio: 'i love to write, dance, play viola, and otherwise explore the great indoors. i\'ve also been one of the people developing and maintaining this website since 2022! feel free to say hi <a href="https://www.instagram.com/teresa_gao">@teresa_gao</a>.',
         isAlum: true,
     },
 

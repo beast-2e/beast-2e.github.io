@@ -242,7 +242,8 @@ const QUOTES = [
     "\"If you ever need to talk about women, I would love to listen.\"",
     "\"My tastes for Asians skews DILFs.\"",
     "\"Being gay is bad.\"\n\"That's, like, homophobic.\"",
-    "\"Sorry, please remove your boobs: that's cheating.\"\n\"You've become too mommy.\"",
+    "\"Sorry, please remove your boobs: that's cheating.\"",
+    "\"You've become too mommy.\"",
     "\"She's a MILDEW: a mother I'd like to discuss economics with.\"",
     "\"He's, like, the perfect model of what you want in a woman.\"",
     "\"The weather outside is frightful, but the scallion pancakes are quite delightful!\"",
@@ -394,7 +395,7 @@ const QUOTES = [
     "\"You did 9/11?!.\"\n\"Yeah, but you can't tell anyone.\"",
     "\"I am the Christ.\"",
     "\"I'm pregaming the hentai event. Don't worry about it.\"",
-    "\"That foot's doing weird things.\"\n\"You would to if you had 8 frames.\"",
+    "\"That foot's doing weird things.\"\n\"You would too if you had 8 frames.\"",
     "\"Grooming 2: Electric Boogaloo.\"",
     "\"No cave can accommodate three snakes!\"",
     "\"I can't just back into the shaft.\"",
@@ -429,7 +430,7 @@ const QUOTES = [
     "\"You'll always be a kitten in my heart.\"",
     "\"I do not accept you as a son in law by the way.\"",
     "\"They call me the balls destroyer.\"",
-    "\"What kind of mother are you?\"\n\"I'm letting my kids whore apparently\"",
+    "\"What kind of mother are you?\"\n\"I'm letting my kids whore, apparently.\"",
     "\"Please, I don't want to be in him anymore.\"",
     "\"I was too big for Snorlax.\"",
     "\"He needs more head.\"",
@@ -466,7 +467,7 @@ const QUOTES = [
     "\"Give me a kid and I'll put them in my bed.\"",
     "\"I asked for furry porn.\"",
     "\"Female chefs are the only type of woman I would not want in the kitchen.\"",
-    "\"I need you to start spawning children so i can kill them!\"\n\"I'm never going to spawn children, and that's okay.\"",
+    "\"I need you to start spawning children so I can kill them!\"\n\"I'm never going to spawn children, and that's okay.\"",
     "\"If we fried me, I'd be a chimichanga.\"",
     "\"I'm T-posing like Jesus Christ.\"",
     "\"You look, like, gay.\"",
@@ -478,8 +479,11 @@ const QUOTES = [
     // Template for easier copy-pasting
     // "\".\"",
 
-    // Note: newlines (\n) don't work with jQuery, but we might want to keep
-    // them anyway in case we change to another implementation in the future.
+    /*
+    Note: newlines (\n) don't work with jQuery,
+    but we might want to keep them anyway in case
+    we change to another implementation in the future.
+    */
 ];
 
 Object.freeze(QUOTES);

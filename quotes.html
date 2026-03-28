@@ -58,16 +58,16 @@
     </body>
 
     <script>
-        const seenQuotes = [];
+        const seenQuoteNums = [];
         function randomQuote() {
             let quoteText;
-            if (seenQuotes.length < QUOTES.length) {
+            if (seenQuoteNums.length < QUOTES.length) {
                 let quoteNum = Math.floor(Math.random() * QUOTES.length);
-                while (seenQuotes.includes(quoteNum)) {
+                while (seenQuoteNums.includes(quoteNum)) {
                     quoteNum = Math.floor(Math.random() * QUOTES.length);
                 }
                 quoteText = QUOTES[quoteNum];
-                seenQuotes.push(quoteText);
+                seenQuoteNums.push(quoteNum);
             } else {
                 quoteText = 'Congrats! You\'ve read all the quotes we have. Maybe you can help us document some new ones ...'
             }
