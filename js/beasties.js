@@ -401,11 +401,11 @@ const BEASTIES = [
 
     {
         headshotSrc: 'images/Rai.jpg',
-        name: 'Rachel/Rai',
+        name: 'Rai',
         pronouns: 'she/her',
         year: '2025',
         course: '6-9 (computation and cognition)',
-        bio: 'hi i\'m rai! resident party poster designer here. always down to make cursed things in photoshop :)) i\'m also on gamescomm (hmu to play overcooked, moving out, or castle crashers!!) and swagcomm (plz stop me or i Will make PEMIS merch). u can see what i\'m up to on insta <a href="https://www.instagram.com/raiccoon">@raiccoon</a> altho lately i\'ve only been posting ADT and my girlfriend oops',
+        bio: 'hi, i\'m rai! while on hall, i was on gamescomm (hosting a lot of baba), swagcomm (ask me about the pemis sweatpants), and hall chair (mostly making cursed party posters and hosting lunches during renovations). nowadays i have a slightly better sleep schedule, and i work on games for both my day job and for fun. hmu to talk about games!! :)',
         isAlum: true,
     },
 
